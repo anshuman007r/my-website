@@ -10,7 +10,7 @@ import {Carousel} from 'react-bootstrap';
 export default class Carousl extends Component {
     render() {
         return (
-                <Carousel id="Home" className="h-100" c>
+                <Carousel id="Home" className="bottom-0 mb-5">
                     <Carousel.Item>
                         <img
                         className="d-block w-100 h-100"

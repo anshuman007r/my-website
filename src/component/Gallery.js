@@ -7,9 +7,16 @@ import Image5 from '../assets/image_5.jpg'
 import Image6 from '../assets/image_6.jpg'
 
 export default class Gallery extends Component {
+
+    handleData(){
+        alert('Hello')
+    }
+    
+
+
     render() {
         return (
-            <div className="container-fluid mt-5" id="gallery">
+            <div className="container-fluid mt-5 mb-5" id="gallery">
                 <div className="text-center display-3">
                     <span>Gallery</span>
                     <hr style={{ height : '0.5px', backgroundColor :'#c3c3c3'}} className="w-50 align-items-center"/>

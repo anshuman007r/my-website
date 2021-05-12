@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class ContactUs extends Component {
     render() {
         return (
-            <div id="Contact" className="container font-weight-bold ui-sans-serif">
+            <div id="Contact" className="container font-weight-bold ui-sans-serif mt-5">
                 <div className="text-center display-3 mb-5">
                     <span>Contact Us</span>
                     <hr style={{ height : '0.5px', backgroundColor :'#c3c3c3'}} className="w-50 align-items-center"/>

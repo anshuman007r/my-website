@@ -3,7 +3,7 @@ import Image1 from '../assets/image_1.jpg'
 export default class AboutUs extends Component {
     render() {
         return (
-            <div id='AboutUs'className="container-fluid mb-5 h-100">
+            <div id='AboutUs'className="container-fluid mb-5 mt-5">
                 <div className="text-center display-3 mt-5">
                     <span>About us</span>
                     <hr style={{ height : '0.5px', backgroundColor :'#c3c3c3'}} className="w-50 align-items-center"/>

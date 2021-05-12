@@ -8,7 +8,7 @@ export default class Services extends Component {
     }
     render() {
         return (
-            <div id="Service" className="container">
+            <div id="Service" className="container mt-5 mb-5">
                 <div className="text-center display-3">
                     <span>Services</span>
                     <hr style={{ height : '0.5px', backgroundColor :'#c3c3c3'}} className="w-50 align-items-center"/>
